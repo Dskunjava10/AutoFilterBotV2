@@ -4,7 +4,7 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
+    START_TEXT = """<b><u>Hey {}!!</u></b>
 
 ഞാൻ <b><a href="https://t.me/movie_house2">🔰ᴍᴏᴠɪᴇ ʜᴏᴜꜱᴇ🔰</a></b> എന്ന ഗ്രൂപ്പിൽ മൂവീസ് കൊടുക്കുന്ന ബോട്ട് ആണ്
 
@@ -19,9 +19,9 @@ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ <b><a href="https://t.me/DS_KUNJAVA">ᴰˢ᭄KUNJAV
 -> Any Dought Ask : <b><a href="https://t.me/DS_KUNJAVA">ᴰˢ᭄KUNJAVA࿐</a></b>
            
 ✨️Help നെകിതല്ലേ അപ്പൊ എന്തായാലും ചാനലിലും കേറിക്കോ..!
-<b><a href="https://t.me/ds_movies1">⭕️ ᴄʜᴀɴɴᴇʟ ⭕️</a></b>
+<b><a href="https://t.me/ds_movies1"> ᴄʜᴀɴɴᴇʟ </a></b>
 """
-    
+  
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Night Fury 🖤</code>
     
 <b>➥ ᴄʀᴇᴀᴛᴏʀ</b> : <b><a href="https://t.me/DS_KUNJAVA">ᴰˢ᭄KUNJAVA࿐</a></b>
