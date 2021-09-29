@@ -1659,10 +1659,15 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-            InlineKeyboardButton('About 🚩', callback_data='about')
+            InlineKeyboardButton('⚜️ My Developer ⚜️', url='https://t.me/DS_KUNJAVA')
         ],[
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('🔰 ɢʀᴏᴜᴘ 🔰', url ='https://t.me/movie_house2'),
+            InlineKeyboardButton('⭕️ ᴄʜᴀɴɴᴇʟ ⭕️', url='https://t.me/ds_movies1')
+        ],[
+            InlineKeyboardButton('Home 🏠', callback_data='start'),
+            InlineKeyboardButton('About 🌀', callback_data='about')
+        ],[
+            InlineKeyboardButton('Close ⚡️', callback_data='close')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1677,7 +1682,9 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
+            InlineKeyboardButton('⚡️ Support ⚡️', url ='https://t.me/movie_house2')
+        ],[
+            InlineKeyboardButton('Home 🏠', callback_data='start'),
             InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
         
