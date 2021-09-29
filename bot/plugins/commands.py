@@ -52,8 +52,8 @@ async def start(bot, update):
         InlineKeyboardButton('🔰 ɢʀᴏᴜᴘ 🔰', url ='https://t.me/movie_house2'),
         InlineKeyboardButton('⭕️ ᴄʜᴀɴɴᴇʟ ⭕️', url='https://t.me/ds_movies1')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
-        InlineKeyboardButton('Close 🔐', callback_data="close")
+        InlineKeyboardButton('Help ⚙', callback_data="help"),
+        InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
