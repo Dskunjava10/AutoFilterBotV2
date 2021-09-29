@@ -1644,6 +1644,7 @@ async def callback_data(bot, update: CallbackQuery):
             InlineKeyboardButton('🔰 ɢʀᴏᴜᴘ 🔰', url ='https://t.me/movie_house2'),
             InlineKeyboardButton('⭕️ ᴄʜᴀɴɴᴇʟ ⭕️', url='https://t.me/ds_movies1')
         ],[
+            InlineKeyboardButton('Close ⚡️', callback_data='close'),
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
     
