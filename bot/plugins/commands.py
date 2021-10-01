@@ -6,6 +6,15 @@ from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from bot import Translation, LOGGER # pylint: disable=import-error
 from bot.database import Database # pylint: disable=import-error
+import random
+
+PHOTOS = [
+    "https://telegra.ph/file/c2edac4a6cd119b61e9a9.jpg",
+    "https://telegra.ph/file/f317e338a6d926dd76e43.jpg",
+    "https://telegra.ph/file/e16219bb7a6d696dc731e.jpg",
+    "https://telegra.ph/file/7dfb2ca4a805e93301660.jpg",
+    "https://telegra.ph/file/d456607d4100b99cad63a.jpg",
+]
 
 db = Database()
 
