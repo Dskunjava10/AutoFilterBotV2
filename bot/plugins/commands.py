@@ -11,9 +11,11 @@ import random
 PHOTOS = [
     "https://telegra.ph/file/c2edac4a6cd119b61e9a9.jpg",
     "https://telegra.ph/file/f317e338a6d926dd76e43.jpg",
-    "https://telegra.ph/file/e16219bb7a6d696dc731e.jpg",
+    "https://telegra.ph/file/5c8314badedf2fcfa24ff.jpg",
     "https://telegra.ph/file/3c0b062e37743d2ca8bae.jpg",
     "https://telegra.ph/file/d456607d4100b99cad63a.jpg",
+    "https://telegra.ph/file/c3d19a0160effbd2b8715.jpg",
+    "https://telegra.ph/file/10f6058d1f0bdfbfe8e75.jpg",
 ]
 
 db = Database()
