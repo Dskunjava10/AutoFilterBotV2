@@ -13,7 +13,10 @@ PHOTOS = [
     "https://telegra.ph/file/f317e338a6d926dd76e43.jpg",
     "https://telegra.ph/file/5c8314badedf2fcfa24ff.jpg",
     "https://telegra.ph/file/3c0b062e37743d2ca8bae.jpg",
+    "https://telegra.ph/file/96f6a140c730bbdc1d061.jpg",
+    "https://telegra.ph/file/874a0e66d816c85bd5e85.jpg",
     "https://telegra.ph/file/d456607d4100b99cad63a.jpg",
+    "https://telegra.ph/file/0e35e607d3c0b2fe0ef9a.jpg",
     "https://telegra.ph/file/c3d19a0160effbd2b8715.jpg",
     "https://telegra.ph/file/10f6058d1f0bdfbfe8e75.jpg",
 ]
