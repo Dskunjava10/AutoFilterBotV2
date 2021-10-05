@@ -86,15 +86,11 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('⚜️ My Developer ⚜️', url='https://t.me/DS_KUNJAVA')
-    ],[
-        InlineKeyboardButton('🔰 ɢʀᴏᴜᴘ 🔰', url ='https://t.me/movie_house2'),
-        InlineKeyboardButton('⭕️ ᴄʜᴀɴɴᴇʟ ⭕️', url='https://t.me/ds_movies1')
+        InlineKeyboardButton('🥳 My Owner', url ='https://t.me/DS_KUNJAVA'),
+        InlineKeyboardButton('⚡️ Support ⚡️', url ='https://t.me/movie_house2')
     ],[
         InlineKeyboardButton('Home 🏠', callback_data='start'),
-        InlineKeyboardButton('About 🌀', callback_data='about')
-    ],[
-        InlineKeyboardButton('Close ⚡️', callback_data='close')
+        InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -108,7 +104,7 @@ async def help(bot, update):
     )
 
 
-@Client.on_message(filters.command(["about"]) & filters.private, group=1)
+@Client.on_message(filters.command([""]) & filters.private, group=1)
 async def about(bot, update):
     
     buttons = [[
